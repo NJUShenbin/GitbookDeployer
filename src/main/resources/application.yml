@@ -1,0 +1,8 @@
+spring:
+  resources:
+    staticLocations: file:static/
+gitbook:
+  deployShell: deployHtml.sh
+server:
+  tomcat:
+    uri-encoding: utf-8
